@@ -7,3 +7,6 @@ Primary School Math Exercise Maker
 학습지 할 여력이 되지 않거나, 더 연습하고 싶어하는 아이를 가진 부모님들께
 유용하게 사용되길 바랍니다.
 
+--
+chmod -R 707 save_quizes 퍼미션 조정이 필요합니다.
+save_quizes 디렉토리는 프린트 한 문제 페이지를 저장한 이용자의 컨텐츠가 저장되는 페이지입니다.
