@@ -96,6 +96,24 @@ class Plus extends Multiply {
 
 }
 
+class Minus extends Multiply {
+
+	public function createQuiz($quiz_count) {
+		$result = array();
+		for($i = 0 ; $i < $quiz_count ; $i++) {
+			$result[$i] = array(
+				'top' => $this->getTopNumber(),
+				'bottom' => $this->getBottomNumber(),
+			);
+			$result[$i]['answer'] = $result[$i]['top'] - $result[$i]['bottom'];
+		}
+		return $result;
+	}
+
+
+}
+
+
 
 class Divide extends Multiply {
 

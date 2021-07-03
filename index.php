@@ -10,8 +10,8 @@
     </style>
 </head>
 <body>
-    <a href='plus.php'>+ 덧셈 연습</a><br />
-    <a href='multiply.php'>X 곱셈 연습</a><br />
-    <a href='divide.php'>/ 나눗셈 연습</a><br />   
+    <a href='/plus.php'>+ 덧셈 연습</a><br />
+    <a href='/multiply.php'>X 곱셈 연습</a><br />
+    <a href='/divide.php'>/ 나눗셈 연습</a><br />   
 </body>
 </html>
